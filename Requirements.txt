@@ -1,0 +1,1 @@
+conda install pytorch torchvision scikit-learn pandas matplotlib seaborn tqdm -c pytorch
