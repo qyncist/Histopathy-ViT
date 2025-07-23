@@ -25,21 +25,3 @@ Install the required packages:
     pip install -r requirements.txt
 
 ## Usage
-
-### Training
-
-To train a Vision Transformer model on your histopathology dataset, run:
-
-    python train.py --config configs/train_config.yaml
-
-### Evaluation
-
-To evaluate a pretrained model, run:
-
-    python evaluate.py --model_path path/to/model.pth --data_path path/to/dataset
-
-### Visualization
-
-You can visualize attention maps or other model outputs using:
-
-    python visualize.py --model_path path/to/model.pth --image_path path/to/image.png
